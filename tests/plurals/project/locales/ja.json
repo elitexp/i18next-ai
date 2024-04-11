@@ -1,0 +1,19 @@
+{
+    "replace": {
+        "keep_one": "one ja",
+        "book": "book ja",
+        "book_plural": "books ja",
+        "keep_two": "two ja"
+    },
+    "add": {
+    },
+    "remove": {
+        "remove": "remove ja",
+        "remove_plural": "removes ja"
+    },
+    "keep": {
+        "other_one": "other one ja",
+        "value": "values ja",
+        "other_value": "other two ja"
+    }
+}

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blank:stderr.txt 1`] = `""`;
+
+exports[`blank:stdout.txt 1`] = `""`;

@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.core",
+            "es2015.promise"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "outDir": "../dist",
+        "newLine": "LF",
+        "pretty": true,
+        "sourceMap": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "skipLibCheck": true,
+        "target": "es5"
+    },
+    "include": [
+        "*.ts",
+        "../typings/**/*"
+    ]
+}

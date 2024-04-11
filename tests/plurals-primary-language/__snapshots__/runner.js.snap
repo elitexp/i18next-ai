@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`plurals-primary-language:locales/de.json 1`] = `
+"{
+    add: {
+        brick: bricks ru 0,
+        brick_plural: bricks ru 0
+    },
+    fix: {
+        book: books ru 0,
+        book_plural: books ru 0
+    },
+    keep: {
+        value: value de,
+        value_plural: values de
+    },
+    remove: {
+    }
+}"
+`;
+
+exports[`plurals-primary-language:locales/en.json 1`] = `
+"{
+    add: {
+        brick: bricks ru 0,
+        brick_plural: bricks ru 0
+    },
+    fix: {
+        book: books ru 0,
+        book_plural: books ru 0
+    },
+    keep: {
+        value: value en,
+        value_plural: values en
+    },
+    remove: {
+    }
+}"
+`;
+
+exports[`plurals-primary-language:locales/ja.json 1`] = `
+"{
+    add: {
+        brick: bricks ru 0
+    },
+    fix: {
+        book: books ru 0
+    },
+    keep: {
+        value: values ja
+    },
+    remove: {
+    }
+}"
+`;
+
+exports[`plurals-primary-language:locales/ru.json 1`] = `
+"{
+    add: {
+        brick_0: bricks ru 0,
+        brick_1: bricks ru 1,
+        brick_2: bricks ru 2
+    },
+    fix: {
+        book_0: books ru 0,
+        book_1: books ru 1,
+        book_2: books ru 2
+    },
+    keep: {
+        value_0: values ru 0,
+        value_1: values ru 1,
+        value_2: values ru 2
+    },
+    remove: {
+    }
+}"
+`;
+
+exports[`plurals-primary-language:stderr.txt 1`] = `""`;
+
+exports[`plurals-primary-language:stdout.txt 1`] = `
+"Pushed keys to actual/locales/de.json: brick, brick_plural, book, book_plural
+Removed keys from actual/locales/de.json: remove, remove_0, remove_plural, brick_0, brick_1, brick_2
+Pushed keys to actual/locales/en.json: brick, brick_plural, book, book_plural
+Removed keys from actual/locales/en.json: remove, remove_0, remove_plural, brick_0, brick_1, brick_2
+Pushed keys to actual/locales/ja.json: brick, book
+Removed keys from actual/locales/ja.json: remove, remove_0, remove_plural, book_0, book_1, book_2
+"
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`multifolder:one/locales/en.json 1`] = `
+"{
+    add_me: add,
+    keep_me: keep
+}"
+`;
+
+exports[`multifolder:one/locales/pt-BR.json 1`] = `
+"{
+    add_me: add,
+    keep_me: don't change
+}"
+`;
+
+exports[`multifolder:stderr.txt 1`] = `""`;
+
+exports[`multifolder:stdout.txt 1`] = `
+"Pushed keys to actual/one/locales/pt-BR.json: add_me
+Removed keys from actual/one/locales/pt-BR.json: remove_me
+Pushed keys to actual/two/locales/pt-BR.json: add_me
+Removed keys from actual/two/locales/pt-BR.json: remove_me
+Pushed keys to actual/two/three/locales/pt-BR.json: add_me
+Removed keys from actual/two/three/locales/pt-BR.json: remove_me
+"
+`;
+
+exports[`multifolder:two/locales/en.json 1`] = `
+"{
+    add_me: add,
+    keep_me: keep
+}"
+`;
+
+exports[`multifolder:two/locales/pt-BR.json 1`] = `
+"{
+    add_me: add,
+    keep_me: don't change
+}"
+`;
+
+exports[`multifolder:two/three/locales/en.json 1`] = `
+"{
+    add_me: add,
+    keep_me: keep
+}"
+`;
+
+exports[`multifolder:two/three/locales/pt-BR.json 1`] = `
+"{
+    add_me: add,
+    keep_me: don't change
+}"
+`;

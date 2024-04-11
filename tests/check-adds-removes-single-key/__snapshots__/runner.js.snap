@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check-adds-removes-single-key:locales/de.json 1`] = `
+"{
+	  keep_me: keep de
+}"
+`;
+
+exports[`check-adds-removes-single-key:locales/en.json 1`] = `
+"{
+    add_me: add,
+    keep_me: keep en
+}"
+`;
+
+exports[`check-adds-removes-single-key:stderr.txt 1`] = `
+"
+THROWN:
+Error: [i18next-json-sync] check failed -- keys are out of sync. Run again without check mode to synchronize files 
+ 	...
+"
+`;
+
+exports[`check-adds-removes-single-key:stdout.txt 1`] = `
+"Missing keys in actual/locales/de.json: add_me
+"
+`;

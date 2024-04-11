@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`space-number-as-string:locales/en.json 1`] = `
+"{
+    asdf: {
+        keep_two: en
+    },
+    keep_one: en
+}"
+`;
+
+exports[`space-number-as-string:locales/pt-BR.json 1`] = `
+"{
+    asdf: {
+        keep_two: pt-BR
+    },
+    keep_one: pt-BR
+}"
+`;
+
+exports[`space-number-as-string:stderr.txt 1`] = `""`;
+
+exports[`space-number-as-string:stdout.txt 1`] = `""`;
