@@ -1,6 +1,6 @@
 {
   "name": "i18next-json-sync-ai",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "keep i18next json resource files in sync, uses open ai to translate",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

@@ -7,6 +7,8 @@ language, forked form [i18next](https://github.com/jwbay/i18next-json-sync), inc
 added/removed from one language are correctly propagated to the other languages, reducing the chance
 for missing or obselete keys, merge conflicts, and typos.
 
+With the added capability to traverse in-depth of the JSON files, it syncs the JSON files completely, no matter how deep you go down.
+
 ## Example
 Given these files:
 ```
